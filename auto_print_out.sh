@@ -30,3 +30,8 @@ gcc is_mersenne_prime.c -o is_mersenne_prime.out -lm -lgmp -lmpfr
 gcc is_mersenne_prime.c -o is_mersenne_prime.ubuntu_22.04.3LTS -lm -lgmp -lmpfr
 
 echo "compile is_mersenne_prime and run done"
+
+gcc is_M127.c -o is_M127.out -lm -lgmp -lmpfr
+gcc is_M127.c -o is_M127.ubuntu_22.04_3LTS -lm -lgmp -lmpfr
+
+echo "compile is_M127 and run done"
